@@ -1,0 +1,54 @@
+.searchMovie {
+  background-color: rgb(6, 8, 26);
+  padding: 20px;
+}
+
+.input-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.placeholer-container {
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.popularMovies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+
+@media (max-width: 768px) {
+  .input-container input {
+      margin-left: 0;
+      margin-top: 30px;
+      font-size: 16px;
+  }
+
+  .popularMovies {
+      padding: 10px;
+  }
+
+  .placeholer-container h2 {
+      font-size: 1rem;
+  }
+}

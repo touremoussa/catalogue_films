@@ -1,0 +1,17 @@
+.navigation {
+    margin-bottom: 40px;
+
+    a {
+        margin: 10px;
+        padding: 10px;
+        color: $color-3;
+    }
+
+    a:hover {
+        border-bottom: 6px solid $color-1;
+    }
+
+    .nav-active {
+        border-bottom: 6px solid $color-1;
+    }
+}

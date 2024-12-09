@@ -1,0 +1,98 @@
+.container-fluid {
+    width: 90% !important;
+    display: flex;
+    justify-content: space-between; 
+  }
+  .nav-item {
+    margin-right: 60px;
+    font-size: 22px;
+  }
+  .navbar-brand {
+    display: flex; 
+    align-items: center; 
+}
+.navbar-nav {
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-start;
+    margin-right: 0;
+   
+}
+.navbar {
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center;
+    
+}
+.search-item {
+  margin-left: auto; 
+}
+  nav {
+    background-color: black !important;
+  }
+  .navbar-dark.bg-dark.navbar-opaque {
+    background-color: #000000 !important;
+  }
+  .navbar-brand img{
+    width: 100px;
+  }
+  .navbar-dark .nav-link {
+    color: white !important;
+    text-decoration: none;
+  }
+
+  .navbar-toggler {
+    border: none; 
+  }
+  
+  .navbar-toggler-icon {
+    background-color: black; 
+    width: 30px;
+    height: 3px;
+    display: block;
+    position: relative;
+  }
+  
+  .navbar-toggler-icon::before,
+  .navbar-toggler-icon::after {
+    content: "";
+    background-color: black;
+    width: 30px;
+    height: 3px;
+    position: absolute;
+    left: 0;
+  }
+  
+  .navbar-toggler-icon::before {
+    top: -8px;
+  }
+  
+  .navbar-toggler-icon::after {
+    top: 8px;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .navbar-collapse {
+      display: none;
+    }
+  
+    .navbar-collapse.show {
+      display: flex;
+      flex-direction: column;
+      background-color: black;
+      position: absolute;
+      top: 56px;
+      left: 0;
+      width: 100%;
+      padding: 1rem;
+    }
+    .nav-item {
+      margin: 10px 0;
+    }
+    .search-item {
+      margin-left: 0; 
+    }
+  
+  }
+  

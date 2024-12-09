@@ -1,0 +1,17 @@
+.logo {
+    display: flex;
+    left: 50%;
+    justify-content: center;
+    top: 5px;
+    align-items: center;
+    margin-bottom: 50px;
+
+    img {
+        width: 180px;
+        height: 120px;
+    }
+
+    h3 {
+        margin-left: 10px;
+    }
+}
